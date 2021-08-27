@@ -431,10 +431,15 @@ width: 100%;
 
 /*end of items */
 
+#portfolio img, #certificate img{
+  width: 100%;
+  height: auto;
+}
+
 /********************Portfolio End****************************/
 
 
-/**********************************Testimonials start****************************************/
+/**********************************Testimonials start*************/
 #testimonial {
   display: -ms-grid;
   display: grid;
