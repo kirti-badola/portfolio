@@ -57,6 +57,10 @@
         <li class="nav-item">
           <a class="nav-link" href="#certificate">certificates</a>
         </li>
+	      
+	 <li class="nav-item">
+          <a class="nav-link" href="#faq">FAQ</a>
+        </li>
 
         <li class="nav-item">
           <a class="nav-link" href="#testimonial">Testimonials</a>
@@ -583,6 +587,70 @@
   </div>
 </section>
 <!------------------------- Certificates End ------------------------------->
+		
+<!------------------------- FAQ Start ------------------------------->
+<section id="faq" >
+  <div class="container">
+        <h2 class="heading text-center my-4 py-4">Frequently Asked Questions</h2>
+
+        <button class="collapsible">Why have a website?</button>
+          <div class="content">
+            <p>Website is one of the essential requirements for any kind of business. And the only thing more important than 
+              the website itself is to make it professional and user-friendly. Because your website market your business 24/7 
+              and 75% of clients judge the credibility of your business based on how they feel when they visit your site.</p>
+          </div>
+
+          <button class="collapsible">Why Me?</button>
+          <div class="content">
+            <p>I am passionate and believe in best practices and modern trends in web development. I respond quickly 
+              to revisions you need and am happy to accommodate any unique requests. Your site design is the first thing 
+              your customers see. That’s why I design sites that reflect your style and industry. Updates daily. 
+              100% Client Satisfaction with on-time delivery.</p>
+          </div>
+
+          <button class="collapsible">Do you redesign existing websites?</button>
+          <div class="content">
+            <p>Yes, I can redesign the existing website if there is a need to redesigning it for a valid reason with an 
+              attractive user interface, modern design according to your Industry.</p>
+          </div>
+
+          <button class="collapsible">What size companies do you produce web designs for?</button>
+          <div class="content">
+            <p>I like to work with all sorts and sizes of businesses and individuals, and I bring the same skills used 
+              to support our celebrity and big business clients to the work I do for smaller clients to understand the needs 
+              of growing organizations.</p>
+          </div>
+
+          <button class="collapsible">Will my website work on smartphones and tablets as well?</button>
+          <div class="content">
+            <p>It most certainly will! More people are accessing the web via small screens than ever, and the trend 
+              is likely to carry on. If your site doesn’t display or work properly on a mobile or tablet screen, you risk 
+              losing a big chunk of your potential audience. It means mobile responsive web design is essential these days. 
+              Every website I create is mobile responsive.</p>
+          </div>
+
+  </div>
+
+</section>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+<!------------------------- FAQ End ------------------------------->
+
 
 <!--------------------------------- Testimonials Start --------------------->
 <section id="testimonial">
