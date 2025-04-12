@@ -1,906 +1,695 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	 <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Kirti Jain</title>
-<!-- Bootstrap css Link -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Css Link -->
-    <link rel="stylesheet" href="style.css">
-<!--font awesome link  -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- All google fonts links -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
-<!-- w3School links -->
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <!--Fevicon link -->
-	<link rel="icon" type="image/x-icon" href="images/other/favicon.jpg">
 
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="icon" type="image/x-icon" href="images/other/favicon.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
 
-  <!------------- Preloader ------->
   <div id="preloader"></div>
 
 
-<!--------------------------------- Navbar start ------------------------------------------------>
-<section id="nav">
-	<nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Codewithkirti</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa fa-bars" aria-hidden="true"></i>
-    </button>
+  <section class="hero-section">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" id="navbarNav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#nav" style="color:#D5F667;">Home</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#profile">About</a>
-        </li>
- 
-        <li class="nav-item">
-           <a class="nav-link" href="#services">Services</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
+    <!-- Navbar start -->
+    <header class="navbar">
+      <nav class="container">
 
-        <li class="nav-item">
-          <a class="nav-link" href="#certificate">certificates</a>
-        </li>
+        <div class="nav">
+          <div class="logo">
+            <a class="navbar-brand" href="#">Codewithkirti</a>
+          </div>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#testimonial">Testimonials</a>
-        </li>
+          <div>
+            <!-- <button id="toggleNav"> <i class="fa fa-bars" aria-hidden="true"></i> </button> -->
 
-         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
+            <label class="burger" for="burger" id="toggleNav">
+              <input type="checkbox" id="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
 
-      </ul>
+            <div class="toc">
+
+              <ul>
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">testimonials</a></li>
+                <li><a href="#contact">contact</a></li>
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+
+      </nav>
+    </header>
+    <!-- Navbar end -->
+
+    <!-- hero section start -->
+    <div class="container" id="hero">
+
+      <div class="hero-block">
+
+        <h1 class="content__container__text">
+          I'm Kirti Jain, <span>Web UI/UX Designer & Developer</span>
+        </h1>
+
+        <p>I've crafted <b>70+</b> websites and landing pages, blending creativity and functionality to create seamless,
+          high-impact digital experiences that leave a lasting impact.
+        </p>
+
+        <a href="images/other/Kirti-Badola-SoftwareEngg-Resume.pdf" class="btn" download="Kirti-Badola-SoftwareEngg-Resume.pdf" target="_blank">
+          download resume <i class="fa fa-download"></i></a>
+
+      </div>
 
     </div>
-  </div>
-</nav>
-</section>
-
-
-<!-------------------------------------- Navbar End ----------------------------------------------->
-
-	
-<!--------------------------------- icons start  ------------------------------------------------>
-<section>
-  <div class="icons">
-        <a href="https://www.facebook.com/profile.php?id=100044391863158" target="_blank" class="facebook">facebook 
-        	<i class="fa fa-facebook-official"></i></a>
-        <a href="https://www.instagram.com/jainkirti21403/" target="_blank" class="youtube">insta 
-        	<i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/kirtija24258407" target="_blank" class="twitter">Twitter 
-        	<i class="fa fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/kirti-jain-a02678202/" target="_blank"  class="linkdin">Linkdln
-          <i class="fa fa-linkedin"></i></a>
-        <a href="https://github.com/kirti-badola" target="_blank" class="github">GitHub 
-          <i class="fa fa-github"></i></a>
-    </div>
-</section>
-
-<!--------------------------------- icons End  ------------------------------------------------>
-
-<!-------------------- Banner Start --------------------------------------------->
-<section id="banner">
-
-	 <canvas id="stars"></canvas>
-  	<div class="banner-text">
-			<div class="text-area">
-				<span>K</span>
-				<span>i</span>
-				<span>r</span>
-				<span>t</span>
-				<span>i</span>&nbsp;
-				<span>J</span>
-				<span>a</span>
-				<span>i</span>
-				<span>n</span>
-			</div>
-
-			<h1>FRONT END WEB DEVELOPER</h1>
-			<P>Ability to create innovative, creative, & interactive web designs to boost customer engagement. </p>
-        <a href="images/other/Kirti-Badoula-Resume.pdf" target="_blank" class="btn btn-primary" 
-        download="Kirti-Resume.pdf">Resume <i class="fa fa-download" class="resume"></i></a>
-
-        <a href="images/other/KirtiJain-Card.pdf" target="_blank" class="btn btn-warning mx-3 my-2" 
-        download="Kirti-visitncard.pdf" class="v-card">E-visting Card <i class="fa fa-download"></i></a>
-		</div>
+    <!-- hero section end -->
 
   </section>
- <!------------------------- Banner End ------------------------------->
 
- <!-------------------------------------- Profile Start ----------------------------------------------->
-<section id="profile">
-    <div class="container row">
-    <h2 class="text-center heading mt-5 mb-5">About</h2>
-<!-- Left side start -->
-  
-  <div class="col-lg-5 col-md-3 col-sm-12 mx-auto left">
 
-   <div class="wrap">
-    <div class="clip-block">
-      <div class="clip-each clip-solid"></div>  
+  <!-- Service section start -->
+  <section class="service-section" id="services">
+    <div class="container">
+      <h3 class="subheading">Services</h3>
+      <h2 class="common-heading">Expert Services to Elevate Your <span>Digital Presence
+          <svg xmlns="http://www.w3.org/2000/svg" width="236" height="16" viewBox="0 0 236 16" fill="none">
+            <path d="M3.44601 12.5566C3.44601 12.5566 113.601 -3.78341 232.618 6.95656" stroke="#FEB12F"
+              stroke-width="5" stroke-linecap="round" />
+          </svg>
+        </span> </h2>
+
+      <p class="para">From stunning websites to seamless user experiences, I bring creativity and innovation to every
+        project.
+        I craft solutions that make a lasting impact. Let’s build something remarkable together!
+      </p>
+
+      <div class="service-block">
+
+        <!-- card 1 start -->
+        <div class="service-card">
+          <div class="content">
+
+            <div class="back">
+              <div class="back-content">
+                <img src="images/icons/coding-icon.png" alt="coding icon">
+                <h3>Website Design & Development</h3>
+              </div>
+            </div>
+
+            <div class="front">
+
+              <div class="img">
+                <div class="circle"></div>
+                <div class="circle" id="right"></div>
+                <div class="circle" id="bottom"></div>
+              </div>
+
+              <div class="front-content">
+                <p>I create responsive, high-performance websites that blend creativity with functionality. Whether it's
+                  a sleek portfolio, a dynamic business site, or an eCommerce platform, I build visually stunning and
+                  fast-loading websites.</p>
+                <div class="experience">4 Years of Experience</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- card 1 end -->
+
+        <!-- card 2 start -->
+        <div class="service-card">
+          <div class="content">
+
+            <div class="back">
+              <div class="back-content">
+                <img src="images/icons/uiux-icon.png" alt="uiux icon">
+                <h3>UI/UX Design</h3>
+              </div>
+            </div>
+
+            <div class="front">
+
+              <div class="img">
+                <div class="circle"></div>
+                <div class="circle" id="right"></div>
+                <div class="circle" id="bottom"></div>
+              </div>
+
+              <div class="front-content">
+                <p>Enhancing user experience with intuitive, engaging, and user-friendly interfaces. I focus on
+                  usability, aesthetics, and seamless navigation to ensure that your website or app keeps users engaged
+                  and drives conversions.</p>
+                <div class="experience">4 Years of Experience</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- card 2 end -->
+
+        <!-- card 3 start -->
+        <div class="service-card">
+          <div class="content">
+
+            <div class="back">
+              <div class="back-content">
+                <img src="images/icons/card-icon.png" alt="coding icon">
+                <h3>Digital Visiting Card</h3>
+              </div>
+            </div>
+
+            <div class="front">
+
+              <div class="img">
+                <div class="circle"></div>
+                <div class="circle" id="right"></div>
+                <div class="circle" id="bottom"></div>
+              </div>
+
+              <div class="front-content">
+                <p>Ditch the paper! A modern, interactive digital visiting card helps you share your contact details
+                  effortlessly. Designed for instant access, it’s sleek, scannable, and eco-friendly, making networking
+                  smarter and more efficient.</p>
+                <div class="experience">3 Years of Experience</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- card 3 end -->
+
+        <!-- card 4 start -->
+        <div class="service-card">
+          <div class="content">
+
+            <div class="back">
+              <div class="back-content">
+                <img src="images/icons/mailtemp-icon.png" alt="coding icon">
+                <h3>Email Template Design</h3>
+              </div>
+            </div>
+
+            <div class="front">
+
+              <div class="img">
+                <div class="circle"></div>
+                <div class="circle" id="right"></div>
+                <div class="circle" id="bottom"></div>
+              </div>
+
+              <div class="front-content">
+                <p>Make a lasting impression with professionally designed email templates. I craft visually appealing,
+                  mobile-friendly emails that enhance engagement, improve readability, and boost conversions.</p>
+                <div class="experience">2 Years of Experience</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- card 4 end -->
+
+      </div>
+
     </div>
-
-    <svg class="clip-svg">
-      <defs>
-        <clipPath id="hexagon-clip" clipPathUnits="objectBoundingBox">
-          <polygon points="0.25 0.05, 0.75 0.05, 1 0.5, 0.75 0.95, 0.25 0.95, 0 0.5" />
-        </clipPath>
-      </defs>
-    </svg>  
-   </div> 
-
-   <div class="para">
-      <h3>Who am I?</h3>
-      <h4>Web Developer</h4>
-      <p>I'm Kirt Badoula, Front-End Web Developer. Ability to create innovative, creative, & interactive web designs to boost customer engagement. I value simple content structure, clean design patterns, and thoughtful interactions. My aim is to make Responsive websites built for an optimal user experience that achieves your business goals. see my personal projects on GitHub.</p>
-   </div>
-
-  </div>
-<!-- Left side End -->
-
-<!-- Mid part start -->
-  <div class="col-lg-2 col-md-3 col-sm-12 m-auto">
-    <div class="mid">
-    
-      <div class="circle"><i class="fa fa-handshake-o"></i></div>
-      <div class="circle"><i class="fa fa-handshake-o"></i></div>
-      <div class="circle"><i class="fa fa-handshake-o"></i></div>
-      <div class="circle"><i class="fa fa-handshake-o"></i></div>
-      <div class="circle"><i class="fa fa-handshake-o"></i></div>
-      <div class="circle"><i class="fa fa-handshake-o"></i></div>
-
-  </div>
-  </div>
-<!-- Mid part  End -->
-
-<!-- Right side start -->
-  <div class="col-lg-5 col-md-3 col-sm-12 m-auto">
-
-    <div class="w3-container right">
-  <h3 class="doveloping-title">My Developing Skills</h3><br>
-
-  <div class="w3-light-grey w3-round">
-    <div class="w3-container w3-round progress-clr" style="width:100%">HTML-100%</div>
-  </div><br>
-
-
-  <div class="w3-light-grey w3-round">
-    <div class="w3-container w3-round progress-clr" style="width:95%">CSS-95%</div>
-  </div><br>
-
-  <div class="w3-light-grey w3-round-large">
-    <div class="w3-container w3-round-large progress-clr" style="width:85%">JavaScript-90%</div>
-  </div><br>
-
-  <div class="w3-light-grey w3-round-large">
-    <div class="w3-container w3-round-large progress-clr" style="width:80%">jQuery-80%</div>
-  </div><br>
-
-  <div class="w3-light-grey w3-round-large">
-    <div class="w3-container w3-round-large progress-clr" style="width:75%">AJAX-75%</div>
-  </div><br>
-
-  <div class="w3-light-grey w3-round-large">
-    <div class="w3-container w3-round-large progress-clr" style="width:100%">Bootstrap-100%</div>
-  </div><br>
-
-  <div class="w3-light-grey w3-round-large">
-    <div class="w3-container w3-round-large progress-clr" style="width:60%">PHP-60%</div>
-  </div><br>
-
-  <div class="w3-light-grey w3-round-large">
-    <div class="w3-container w3-round-large progress-clr" style="width:85%">WordPress-85%</div>
-  </div><br>
-
-  <div class="w3-light-grey w3-round-large">
-    <div class="w3-container w3-round-large progress-clr" style="width:85%">Git & GitHub-85%</div>
-  </div><br>
-
-  <div class="w3-light-grey w3-round-large">
-    <div class="w3-container w3-round-large progress-clr" style="width:85%">ReactJs-75%</div>
-  </div>
-
- 
-</div>
-
-  </div>
-<!-- Right side End -->
-
-
-</div>
-</section>
-<!-------------------------------------- Profile End ----------------------------------------------->
-
-
-  <!------------------------- Service Start ----------------------------------------------------->
-  <section id="services">
-	<div class="container">
-		 <h2 class="text-center heading mt-5">What I DO?</h2>
-		<div class="row">
-        
-			<div class="col-lg-3 col-md-2 mx-auto">
-			<div class="card">
-				  
-				  <div class="card-body">
-				  		<div class="service-logo"> <i class="fa fa-code"></i></div>
-				    <h3 class="card-title text-center py-4">Web design & development</h3>
-				    <p>⚡ Designing a highly attractive user interface for mobile and web applications
-              ⚡ Designing interactive, creative to boost customer engagement.
-              ⚡ Creating the flow of application functionalities to optimize user experience</p>
-				  </div>
-				</div>
-		</div>
-
-		<div class="col-lg-3 col-md-2 mx-auto">
-			<div class="card">
-				  
-				  <div class="card-body">
-				  		<div class="service-logo"><i class="fa fa-id-card-o" aria-hidden="true"></i> </div>
-				    <h3 class="card-title text-center py-4">Digital Business Card</h3>
-            <p>⚡I will do professional digital business cards with Attractive Designs to grow your business digitally.
-              ⚡ User-friendly, pocket-friendly, Eco Friendly, Easy to use, action clickable
-              ⚡ 100% Digital Operator & Easy Sharable</p>
-				  </div>
-				</div>
-		</div>
-
-		<div class="col-lg-3 col-md-2 mx-auto">
-			<div class="card">
-				  
-				  <div class="card-body">
-				  		<div class="service-logo"><i class="fa fa-paint-brush"></i></div>
-				    <h3 class="card-title text-center py-4">Graphic Design</h3>
-            <p>⚡ Designing highly attractive illustrations, logos, layouts, and photos.
-              ⚡ Customizing logo designs and building logos from Photoshop.
-              ⚡ Design poster, banner, posts, youtube thumbnails to boost customer engagement</p>
-				  </div>
-				</div>
-		</div>
-			
-	<div class="col-lg-3 col-md-2 mx-auto">
-			<div class="card">
-				  
-				  <div class="card-body">
-				  		<div class="service-logo"><i class="fa fa-desktop" aria-hidden="true"></i></div>
-				    <h3 class="card-title text-center py-4">ON-Page SEO</h3>
-            <p>⚡ Website and youtube channel on-page SEO.
-              ⚡ In Website, Including keyword Research, Market Analysis, Title Tag, Meta Description, Page Content, 
-              Content Headings, Image optimization, Social Media, etc.
-              ⚡ In youtube, Including Title,Description & Tag OPtimization,Competitors Research,
-              youtube thumbnails etc.</p>
-				  </div>
-				</div>
-		</div>
-
-
-	</div>
-	</div>
-</section>
-
-  <!------------------------- Service End ------------------------------->
-
-  <!------------------------- Portfolio Start ------------------------------->
-   <section id="portfolio" class="store py-4 mt-4">
-      <div class="container">
-        <h2 class="text-center heading mt-5 mb-5">Portfolio</h2>
-        <!--Start filter buttons -->
-        <div class="row">
-          <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
-            <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" 
-            data-filter="projects">Projects</a>
-            <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" 
-            data-filter="graphics">Graphic Design</a>
-            <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" 
-            data-filter="logo">Logo Design</a>
-            <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" 
-            data-filter="dbc">Digital Business Cards</a>
-           
-          </div>
-        </div>
-        <!--end of filter buttons -->
-
-        <!-- Start Projects  -->
-
-        <!--Part -1 -->
-        <!-- Start Projects single Item -->
-        <div class="row" id="store-items">
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item projects" data-item="projects">
-            <div class="card ">
-              <video controls>
-                <source src="video/contact-app.mp4" with="300px" height="300px">
-              </video>
-			  
-			  <div class="card-body">
-          <a href="https://kirti-badola.github.io/Contact-App/" target="_blank"><h3>Contact App</h3></a>
-			    	<p>Contact App using React to perform curd operation and display the data of the form with the help 
-              of useEffect Hook property.</P>
-			  </div>
-              </div>
-          </div>
-          <!--end of Projects single Item-->
-
-  
-        <!-- Start Projects single Item -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item projects" data-item="projects">
-            <div class="card ">
-              <video controls>
-                <source src="video/weather-app.mp4" with="300px" height="500px">
-              </video>
-              <div class="card-body">
-                <a href="https://kirti-badola.github.io/Weather-App/" target="_blank"><h3>Weather App</h3></a>
-                  <p>Weather App using React which aim is to display the temperature by searching the city name using OpenWeatherMap API.
-                  </P>
-              </div>
-            </div>
-          </div>
-            <!--end of Projects single Item-->
-
-        <!-- End Projects -->
-
-         <!-- Start Graphics -->
-<!--Part -1 -->
-        <!-- Start Graphics single Item -->
-        <div class="row" id="store-items">
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/1.jpg" class="card-img-top store-img" alt="Graphic-Design" 
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-              </div>
-          </div>
-          <!--end of Graphics single Item-->
-
-  
-        <!-- Start Graphics single Item -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/2.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-            </div>
-          </div>
-            <!--end of Graphics single Item-->
-
-            <!-- Start Graphics single Item -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/3.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-            </div>
-          </div>
-            <!--end of Graphics single Item-->
-
-<!--Part-2-->
-            <!-- Start Graphics single Item -->
-        <div class="row" id="store-items">
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/4.jpg" class="card-img-top store-img" alt="Graphic-Design" 
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-              </div>
-          </div>
-          <!--end of Graphics single Item-->
-
-  
-        <!-- Start Graphics single Item -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/5.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-            </div>
-          </div>
-            <!--end of Graphics single Item-->
-
-            <!-- Start Graphics single Item -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/6.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-            </div>
-          </div>
-            <!--end of Graphics single Item-->
-
-<!--Part-3-->
-            <!-- Start Graphics single Item -->
-        <div class="row" id="store-items">
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/7.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-              </div>
-          </div>
-          <!--end of Graphics single Item-->
-
-  
-        <!-- Start Graphics single Item -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/8.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-            </div>
-          </div>
-            <!--end of Graphics single Item-->
-
-            <!-- Start Graphics single Item -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/9.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-            </div>
-          </div>
-            <!--end of Graphics single Item-->
-
-<!--Part-4-->
-            <!-- Start Graphics single Item -->
-        <div class="row" id="store-items">
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/10.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-              </div>
-          </div>
-          <!--end of Graphics single Item-->
-
-  
-        <!-- Start Graphics single Item -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/11.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-            </div>
-          </div>
-            <!--end of Graphics single Item-->
-
-            <!-- Start Graphics single Item -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item graphics" data-item="graphics">
-            <div class="card ">
-              <div class="img-container">
-                <img src="images/graphics/12.jpg" class="card-img-top store-img" alt="Graphic-Design"
-				width="100%" height="auto" title="graphics" loading="lazy">
-              </div>
-            </div>
-          </div>
-            <!--end of Graphics single Item-->
-  
-    <!--end of Graphics -->
-
-     <!--Star Logo -->
-          <!--part-1-->
-          <!-- start single item Logo -->
-          <div class="row" id="store-items">
-            <div class="col-10 col-sm-6 col-lg-3 mx-auto my-3 store-item logo" data-item="logo">
-              <div class="card ">
-                <div class="img-container">
-                 <img src="images/Logo-Design/2.jpg" class="card-img-top store-img" alt="logo" 
-				 width="100%" height="auto" title="logo" loading="lazy">
-                </a> 
-                </div>
-              </div>
-            </div>
-            <!--end of single item Logo-->
-  
-             <!-- start single item Logo -->
-            <div class="col-10 col-sm-6 col-lg-3 mx-auto my-3 store-item logo" data-item="logo">
-              <div class="card ">
-                <div class="img-container">
-                  <img src="images/Logo-Design/3.jpg" class="card-img-top store-img" alt="logo"
-				  width="100%" height="auto" title="logo" loading="lazy">
-                    </a>
-                </div>
-              </div>
-            </div>
-             <!--end of single item Logo-->
-  
-             <!-- start single item Logo -->
-            <div class="col-10 col-sm-6 col-lg-3 mx-auto my-3 store-item logo" data-item="logo">
-              <div class="card ">
-                <div class="img-container">
-                  <img src="images/Logo-Design/4.jpg" class="card-img-top store-img" alt="logo"
-				  width="100%" height="auto" title="logo" loading="lazy">
-                  </a>
-                </div>
-              </div>
-            </div>
-             <!--end of single item Logo-->
-
-              <!-- start single item Logo -->
-            <div class="col-10 col-sm-6 col-lg-3 mx-auto my-3 store-item logo" data-item="dbc">
-              <div class="card ">
-                <div class="img-container">
-                  <img src="images/Logo-Design/5.jpg" class="card-img-top store-img" alt="logo"
-				  width="100%" height="auto" title="logo" loading="lazy">
-                  </a>
-                </div>
-              </div>
-            </div>
-             <!--end of single item Logo-->
-        
-              </div>
-               <!--end of single item Logo-->
-  
-          </div>
-
-  <!--End of Logo -->
-
-    <!--Start DBC -->
-  <!--part-1-->
-          <!-- start single item DBC -->
-          <div class="row" id="store-items">
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item dbc" data-item="dbc">
-            <div class="card ">
-              <div class="img-container">
-               <a href="https://bit.ly/3y29lf2" target="_blank">
-               <img src="images/dbc/Designer-dude.jpg" class="card-img-top store-img" alt="digital business cards"
-			   width="100%" height="auto" title="digital business cards" loading="lazy">
-              </a> 
-              </div>
-            </div>
-          </div>
-          <!--end of single item DBC-->
-
-           <!-- start single item DBC -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item dbc" data-item="dbc">
-            <div class="card ">
-              <div class="img-container">
-                <a href="https://bit.ly/3AfQAXJ" target="_blank">
-                <img src="images/dbc/Kiran-Kartri.jpg" class="card-img-top store-img" alt="digital business cards"
-				width="100%" height="auto" title="digital business cards" loading="lazy">
-                  </a>
-              </div>
-            </div>
-          </div>
-           <!--end of single item DBC-->
-
-           <!-- start single item DBC -->
-          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item dbc" data-item="dbc">
-            <div class="card ">
-              <div class="img-container">
-                <a href="https://bit.ly/2UMEWmM" target="_blank">
-                <img src="images/dbc/Mehandar-Arya.jpg" class="card-img-top store-img" alt="digital business cards"
-				width="100%" height="auto" title="digital business cards" loading="lazy">
-                </a>
-              </div>
-            </div>
-          </div>
-           <!--end of single item DBC-->
-
-  <!--part-2-->
-          <!-- start single item DBC -->
-          <div class="row" id="store-items">
-            <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item dbc" data-item="dbc">
-              <div class="card ">
-                <div class="img-container">
-                  <a href="https://bit.ly/3dnixCP" target="_blank">
-                  <img src="images/dbc/Subhash-Rajak.jpg" class="card-img-top store-img" alt="digital business cards"
-				  width="100%" height="auto" title="digital business cards" loading="lazy">
-                  </a>
-             </div>
-              </div>
-            </div>
-            <!--end of single item DBC-->
-  
-             <!-- start single item DBC -->
-            <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item dbc" data-item="dbc">
-              <div class="card ">
-                <div class="img-container">
-                  <a href="https://bit.ly/3dhcU9p" target="_blank">
-                  <img src="images/dbc/Digvijay-Rajak.jpg" class="card-img-top store-img" alt="digital business cards"
-				  width="100%" height="auto" title="digital business cards" loading="lazy">
-                    </a>
-                </div>
-              </div>
-            </div>
-             <!--end of single item DBC-->
-  
-             <!-- start single item DBC -->
-            <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item dbc" data-item="dbc">
-              <div class="card ">
-                <div class="img-container">
-                  <a href="https://bit.ly/2UGxo4R" target="_blank">
-                  <img src="images/dbc/prakash.jpg" class="card-img-top store-img" alt="digital business cards"
-				  width="100%" height="auto" title="digital business cards" loading="lazy">
-                  </a>
-              </div>    
-            </div>
-              </div>
-            </div>
-             <!--end of single item DBC-->
-
-        </div>
-    <!--End DBC -->
-  
-        </div>
-    </section>
-    <!--end of items -->  
-<!------------------------- Portfolio End ------------------------------->
-
-<!------------------------- Certificates Start ------------------------------->
-<section id="certificate">
-  <h2 class="heading text-center mt-5">Certificates</h2>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-12 mx-auto">
-        <div class="card">
-          <img src="images/certificates/freecodecamp.jpg" class="mt-3" alt="Responsive web design certificate" width="100%" height="auto" title="Responsive Web Design Certificate" loading="lazy">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-12 mx-auto">
-        <div class="card">
-          <img src="images/certificates/web dovelopent.jpg" class="mt-3" alt="Web Development certificate" width="100%" height="auto" title="Web Development certificate" loading="lazy">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-12 mx-auto">
-        <div class="card">
-          <img src="images/certificates/digital marketing.jpg" class="mt-3" alt="Digital Marketing certificate" width="100%" height="auto" title="Digital Marketing certificate" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!------------------------- Certificates End ------------------------------->
-		
-<!------------------------- FAQ Start ------------------------------->
-<section id="faq" >
-  <div class="container">
-        <h2 class="heading text-center my-4 py-4">Frequently Asked Questions</h2>
-
-        <button class="collapsible">Why have a website?</button>
-          <div class="content">
-            <p>Website is one of the essential requirements for any kind of business. And the only thing more important than 
-              the website itself is to make it professional and user-friendly. Because your website market your business 24/7 
-              and 75% of clients judge the credibility of your business based on how they feel when they visit your site.</p>
-          </div>
-
-          <button class="collapsible">Why Me?</button>
-          <div class="content">
-            <p>I am passionate and believe in best practices and modern trends in web development. I respond quickly 
-              to revisions you need and am happy to accommodate any unique requests. Your site design is the first thing 
-              your customers see. That’s why I design sites that reflect your style and industry. Updates daily. 
-              100% Client Satisfaction with on-time delivery.</p>
-          </div>
-
-          <button class="collapsible">Do you redesign existing websites?</button>
-          <div class="content">
-            <p>Yes, I can redesign the existing website if there is a need to redesigning it for a valid reason with an 
-              attractive user interface, modern design according to your Industry.</p>
-          </div>
-
-          <button class="collapsible">What size companies do you produce web designs for?</button>
-          <div class="content">
-            <p>I like to work with all sorts and sizes of businesses and individuals, and I bring the same skills used 
-              to support our celebrity and big business clients to the work I do for smaller clients to understand the needs 
-              of growing organizations.</p>
-          </div>
-
-          <button class="collapsible">Will my website work on smartphones and tablets as well?</button>
-          <div class="content">
-            <p>It most certainly will! More people are accessing the web via small screens than ever, and the trend 
-              is likely to carry on. If your site doesn’t display or work properly on a mobile or tablet screen, you risk 
-              losing a big chunk of your potential audience. It means mobile responsive web design is essential these days. 
-              Every website I create is mobile responsive.</p>
-          </div>
-
-  </div>
-
-</section>
-
-<script>
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
-  
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight){
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      } 
-    });
-  }
-  </script>
-<!------------------------- FAQ End ------------------------------->
-
-
-<!--------------------------------- Testimonials Start --------------------->
-<section id="testimonial">
-  <h2 class="heading testimonal_title">What does My Client say?</h2>
-
-  <div class="box-container">
-
-<div class="box" data-aos="flip-left">
-  <img src="images/testimonials/Kiran-Khatri.jpg" alt="image"  width="100%" height="auto" title="Client-Image" loading="lazy">
-  <div class="info">
-    <p class="feedback"><i class="fa fa-quote-left" aria-hidden="true"></i>
-      Hi Kirti! The card is superb! You have worked very nicely on each thing. U are an amazing person both ways, 
-      Personally also and professionally also. Keep on doing hard work! Thanks a lot.<i class="fa fa-quote-right"></i></p>
-    <h3>Kiran Khatri</h3>
-  </div>
-</div>
-
-<div class="box" data-aos="flip-right">
-  <img src="images/testimonials/Mehandar-Arya.jpg" alt="image" width="100%" height="auto" title="Client-Image" loading="lazy">
-  <div class="info">
-    <p class="feedback"><i class="fa fa-quote-left" aria-hidden="true"></i>
-      She made a digital visiting card and portfolio website for me.
-      I am really happy with your service. I am impressed with the customer service, skills, dedication, and hard work of Kirti Jain. 
-      She has outstanding customer service and delivery on time.
-      she is very professional and knowledge is incredible, They also solve the problem fast. 
-      I recommended Kirti Jain to all my customers, friends, and clients.
-      <i class="fa fa-quote-right"></i></p>
-    <h3>Mehandra Arya</h3>
-  </div>
-</div>
-
-<div class="box" data-aos="flip-left">
-  <img src="images/testimonials/Digvijay-Rajak-.jpg" alt="image" width="100%" height="auto" title="Client-Image" loading="lazy">
-  <div class="info">
-    <p class="feedback"><i class="fa fa-quote-left" aria-hidden="true"></i>
-      She made a digital visiting card for thesoulfultales. great work done by her. I'm loving it. Keep it up. God bless you.
-     <i class="fa fa-quote-right"></i></p>
-    <h3>Digvijay Rajak</h3>
-  </div>
-</div>
-
-
-</div>
-
-
-<!--------------------------------- Testimonials End ------------------------------------------------>
-
-  <!--------------------------------- Contact Start ------------------------------------------------>
-  <section id="contact" class="container-fluid">
-    <!-- Left Side Part Start -->
-
-
-      <h2 class="heading">get in touch</h2>
-  <div class="row min-vh-75 align-items-center min-vw-100 contact-form">
-  <div class="col-lg-6 col-md-6 col-sm-6 mx-auto">
- 
-<form action="" data-aos="zoom-in">
-
-  <div class="inputBox">
-    <input type="text" required>
-      <h4>full name</h4>
-  </div>
-
-  <div class="inputBox">
-    <input type="email" required>
-      <h4>e-mail</h4>
-  </div>
-
-  <div class="inputBox">
-    <input type="number" required>    
-      <h4>phone</h4>
-  </div>
-
-  <div class="inputBox">
-    <textarea name="" id="" cols="20" rows="5" required></textarea>
-    <h4>message</h4>
-  </div>
-
-  <div class="inputBox">
-    <input type="SUBMIT">
-  </div>
-
-</form>
-
-</div>
-
-
-<!-- Left Side Part End -->
-
-<!-- Right Side Part Start -->
-  <div class="col-lg-6 col-md-6 col-sm-6 contact-detail  mx-auto">
-  
-    <address class="mt-3">
-        <p><i class="fa fa-phone"></i></p>
-        <h3 class="text-center">Contact By Phone</h3>
-        <a href="tel:9196361122350" target="_blank">91-9636122350</a>
-        <hr>
-    </address>
-
-    <address class="mt-3">
-        <p><i class="fa fa-envelope"></i></p>
-        <h3 class="text-center">Contact By Email</h3>
-        <a href="mailto:jainkirti21403@gmail.com" target="_blank">jainkirti21403@gmail.com</a><br>
-        <a href="mailto:kirtibadola515@gmail.com " target="_blank">kirtibadola515@gmail.com </a>
-        <hr>
-    </address>
-
-    <address class="mt-3">
-        <p><i class="fa fa-globe"></i></p>
-        <h3 class="text-center">Contact By Website</h3>
-        <a href="https://kirti-badola.github.io/portfolio" target="_blank">kirti-badola.github.io/portfolio</a>
-        <hr>
-    </address>
-
-    <address class="mt-3">
-        <p><i class="fa fa-home"></i></p>
-        <h3 class="text-center">Looking For Address</h3>
-        <a href="https://goo.gl/maps/aZ5xC31QPzUGoofx9" target="_blank">Near Old Post Office,<br> Amet, Rajsamand,<br> Rajasthan (India)</a>
-    </address>
-  
-</div>
-
-
-<!-- Right Side Part End -->
-</div>
   </section>
-  <!--------------------------------- Contact End ------------------------------------------------>
+  <!-- Service section start -->
 
-  <!--------------------------------- Footer Start ------------------------------------------------>
-   <section id="footer">
-  <footer class="text-muted pt-3 bg-dark fixed-bottom">
-  <div class="container">
-       <!-- footer icons  -->
+  <!-- about us section start -->
+  <section class="about-section" id="about">
+    <div class="container">
 
-    <!-- Normal footer  -->
-    <p class="float-end">
-      <a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-    </p>
-    <p class="footer-text text-center" >copyright&copy; <span id="Footer"></span> Designed and Developed by Kirti Badoula</p>
+      <h3 class="subheading">About Me</h3>
+      <h2 class="common-heading">Designing With Purpose, <span> Developing With Passion
+          <svg xmlns="http://www.w3.org/2000/svg" width="236" height="16" viewBox="0 0 236 16" fill="none">
+            <path d="M3.44601 12.5566C3.44601 12.5566 113.601 -3.78341 232.618 6.95656" stroke="#FEB12F"
+              stroke-width="5" stroke-linecap="round" />
+          </svg>
+        </span>
+      </h2>
 
-  </div>
-</footer>
-</section>
-  <!--------------------------------- Footer End ------------------------------------------------>
+      <div class="about-block">
 
-    <script src="js/main.js"></script>
-    <script src="js/app.js"></script>
-    <script>
-      //footer
-        const footer = () =>{
-          const year = new Date().getFullYear();
-          document.getElementById("Footer").innerHTML= year;  
-        }
+        <div class="about-area">
 
-        footer();
+          <p>I'm a highly skilled and passionate professional with 4+ years of hands-on experience in web design, frontend 
+            development, UI/UX design, and graphic design.</p>
 
-        //preloader
-        var loader = document.getElementById("preloader");
-        window.addEventListener("load", function(){
-          loader.style.display = "none";
-        })       
+          <p>I craft visually stunning, user-friendly websites and funnels 
+            that not only look great but are built to convert and perform effortlessly.
+            My passion for design and tech keeps me evolving in the ever-changing digital world.</p>
 
-    </script>
+          <p>Below are my core strengths that drive every project I take on:</p>
+
+          <ul>
+            <li> <img src="images/icons/responsive-design.png" alt="responsive" width="30" height="30"> Responsive & Mobile-First Design</li>
+            <li> <img src="images/icons/optimization.png" alt="optimization of webiste" width="30" height="30"> Fast & Optimized Website Performance</li>
+            <li> <img src="images/icons/web-page.png" alt="landing page" width="30" height="30"> High-Converting Landing Pages & Funnels</li>
+            <li> <img src="images/icons/ui.png" alt="custom code" width="30" height="30"> UI/UX-Driven Web Experiences</li>
+          </ul>
+          
+        </div>
+
+          <!-- my skills start -->
+          <div class="mykills">
+            <div class="skill-box">
+              <span class="title">HTML</span>
+
+              <div class="skill-bar">
+                <span class="skill-per html">
+                  <span class="tooltip">100%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">CSS & SCSS</span>
+
+              <div class="skill-bar">
+                <span class="skill-per scss">
+                  <span class="tooltip">100%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">Boostrap</span>
+
+              <div class="skill-bar">
+                <span class="skill-per Boostrap">
+                  <span class="tooltip">95%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">Git & GitHub</span>
+
+              <div class="skill-bar">
+                <span class="skill-per git">
+                  <span class="tooltip">90%</span>
+                </span>
+              </div>
+            </div>
+
+            
+            <div class="skill-box">
+              <span class="title">JavaScript & JQuery</span>
+
+              <div class="skill-bar">
+                <span class="skill-per js">
+                  <span class="tooltip">80%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">React JS</span>
+
+              <div class="skill-bar">
+                <span class="skill-per react">
+                  <span class="tooltip">70%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">Figma</span>
+
+              <div class="skill-bar">
+                <span class="skill-per figma">
+                  <span class="tooltip">90%</span>
+                </span>
+              </div>
+            </div>
+
+          </div>
+          <!-- my skills end -->
+
+      </div>
+
+    </div>
+  </section>
+  <!-- about us section end -->
+
+  <!-- portfolio start -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+
+      <h3 class="subheading">Portfolio</h3>
+      <h2 class="common-heading">A Glimpse into My <span> Digital Masterpieces
+          <svg xmlns="http://www.w3.org/2000/svg" width="236" height="16" viewBox="0 0 236 16" fill="none">
+            <path d="M3.44601 12.5566C3.44601 12.5566 113.601 -3.78341 232.618 6.95656" stroke="#FEB12F"
+              stroke-width="5" stroke-linecap="round" />
+          </svg>
+        </span>
+      </h2>
+
+      <header class="tabs-nav">
+        <ul>
+          <li class="active"><a href="#all">All</a></li>
+          <li><a href="#webui">Web UI Design</a></li>
+          <li><a href="#graphic">Graphic Design</a></li>
+          <li><a href="#email">Email Template</a></li>
+          <li><a href="#dvc">Digital Visting Card</a></li>
+
+        </ul>
+      </header>
+
+      <div class="tabs-content">
+
+        <div id="all" class="tab-inner"></div>
+
+        <div id="webui" class="tab-inner">
+          <div class="content-box">
+
+            <figure><img src="images/web/Furniture.png" alt="Furniture" width="100%" height="auto" title="Web UI Design"
+                loading="lazy"></figure>
+            <figure><img src="images/web/Beauty.png" alt="Beauty" width="100%" height="auto" title="Web UI Design"
+                loading="lazy"></figure>
+            <figure><img src="images/web/give anywhere.png" alt="Give Anywhere" width="100%" height="auto"
+                title="Web UI Design" loading="lazy"></figure>
+            <figure><img src="images/web/Business caoch.png" alt="Give Anywhere" width="100%" height="auto"
+                title="Web UI Design" loading="lazy"></figure>
+            <figure><img src="images/web/textshield.png" alt="textshield" width="100%" height="auto"
+                title="Web UI Design" loading="lazy"></figure>
+            <figure><img src="images/web/Home.png" alt="Home" width="100%" height="auto" title="Web UI Design"
+                loading="lazy"></figure>
+            <figure><img src="images/web/IT Solution.png" alt="It Solution" width="100%" height="auto"
+                title="Web UI Design" loading="lazy"></figure>
+
+          </div>
+        </div>
+
+        <div id="graphic" class="tab-inner">
+          <div class="content-box">
+            <figure>
+              <img src="images/graphics/1.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/2.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/3.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/4.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/5.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/6.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/7.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/8.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/9.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/10.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/11.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+            <figure>
+              <img src="images/graphics/12.jpg" alt="Graphic-Design" width="100%" height="auto" title="graphics"
+                loading="lazy">
+            </figure>
+          </div>
+        </div>
+
+        <div id="dvc" class="tab-inner">
+
+          <div class="content-box dvc-block">
+            <figure><img src="images/dbc/Designer-dude.jpg" alt="digital business cards" width="100%" height="auto"
+                title="digital business cards" loading="lazy"></figure>
+            <figure><img src="images/dbc/Mehandar-Arya.jpg" alt="digital business cards" width="100%" height="auto"
+                title="digital business cards" loading="lazy"></figure>
+            <figure><img src="images/dbc/Kiran-Kartri.jpg" alt="digital business cards" width="100%" height="auto"
+                title="digital business cards" loading="lazy"></figure>
+            <figure><img src="images/dbc/Subhash-Rajak.jpg" alt="digital business cards" width="100%" height="auto"
+                title="digital business cards" loading="lazy"></figure>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- portfolio end -->
+
+  <!-- testimonial start -->
+  <section class="testimonial-section" id="testimonials">
+    <div class="container">
+
+      <h3 class="subheading">Testimonials</h3>
+      <h2 class="common-heading">What Does My <span> Client Say?
+          <svg xmlns="http://www.w3.org/2000/svg" width="236" height="16" viewBox="0 0 236 16" fill="none">
+            <path d="M3.44601 12.5566C3.44601 12.5566 113.601 -3.78341 232.618 6.95656" stroke="#FEB12F"
+              stroke-width="5" stroke-linecap="round" />
+          </svg>
+        </span>
+      </h2>
+
+      <div class="testimonial-slider">
+
+        <div class="slide-in">
+          <div class="choose-inner">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <p>"Kirti Jain created a fantastic digital visiting card and portfolio website for me. Her professionalism,
+              skills, and dedication truly impressed me. She delivers on time, provides outstanding customer service,
+              and has incredible knowledge. I highly recommend her to all my friends and clients!"</p>
+          </div>
+          <img src="images/testimonials/Mehandar-Arya.jpg" alt="" class="clientIMg" width="80" height="80">
+          <span>Mehandra Arya <small>(Founder of MM Stock)</small> </span>
+          <img src="images/icons/5_star.png" alt="">
+        </div>
+
+        <div class="slide-in">
+          <div class="choose-inner">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <p>"Your hard work, dedication, and exceptional performance have been truly recognized. Your commitment to
+              excellence, attention to detail, and strong work ethic have made a significant impact, earning you the
+              respect of colleagues and superiors alike."</p>
+          </div>
+          <img src="images/testimonials/Anshul_Maheshwari.png" alt="" class="clientIMg" width="80" height="80">
+          <span>Anshul Maheshwari <small>(Founder of Inspiworks)</small> </span>
+          <img src="images/icons/5_star.png" alt="">
+        </div>
+
+        <div class="slide-in">
+          <div class="choose-inner">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <p>"Your project design showcases impressive creativity, attention to detail, and a deep understanding of
+              our brand's essence. It has undoubtedly elevated our image and deserves a prominent place in your
+              portfolio. Your talent and dedication shine through, and I'm excited to see what you'll create next. Well
+              done!"</p>
+          </div>
+          <img src="images/testimonials/profile.png" alt="NIshant" class="clientIMg" width="80" height="80">
+          <span>Nishant Sukhwal <small>(Founder of Idea2reality)</small> </span>
+          <img src="images/icons/5_star.png" alt="">
+        </div>
+
+        <div class="slide-in">
+          <div class="choose-inner">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <p>"Hi Kirti! The card is superb! You have worked very nicely on each thing. U are an amazing person both
+              ways, Personally also and professionally also. Keep on doing hard work! Thanks a lot."</p>
+          </div>
+          <img src="images/testimonials/Kiran-Khatri.jpg" alt="" class="clientIMg" width="80" height="80">
+          <span>Kiran Kartri <small>(Founder of Nikshar)</small> </span>
+          <img src="images/icons/5_star.png" alt="">
+        </div>
+
+        <div class="slide-in">
+          <div class="choose-inner">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <p>"I received my order promptly, just as promised. I must say, the experience was exceptional! This is
+              hands down the best delivery service I've ever used. I'm thoroughly impressed with the website design and
+              the speed of delivery. I'll be a repeat customer for sure! Thanks for the outstanding service."</p>
+          </div>
+          <img src="images/testimonials/profile.png" alt="Amit Jain" class="clientIMg" width="80" height="80">
+          <span>Amit Jain <small>(Team Lead of TCS)</small> </span>
+          <img src="images/icons/5_star.png" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- testimonial end -->
+
+  <!-- contact and faq section start -->
+  <section class="contact-section" id="contact">
+
+    <div class="hex"></div>
+
+    <div class="container">
+
+      <div class="contact-section">
+
+        <div class="contact-col">
+
+          <h3 class="subheading">Contact Us</h3>
+          <h2 class="common-heading">Ready to Make your <span> Website Shine
+              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="16" viewBox="0 0 236 16" fill="none">
+                <path d="M3.44601 12.5566C3.44601 12.5566 113.601 -3.78341 232.618 6.95656" stroke="#FEB12F"
+                  stroke-width="5" stroke-linecap="round" />
+              </svg>
+            </span>
+          </h2>
+
+          <address class="contact-part">
+            <ul class="contact-details">
+              <li class="call"> <i class="fa fa-phone" aria-hidden="true"></i>
+                <div> Call or WhatsApp : <a href="tel:9636122350">+91 9636122350</a></div>
+              </li>
+
+              <li> <i class="fa fa-envelope" aria-hidden="true"></i>
+                <div> Mail At : <a href="mailto:jainkirti21403@gmail.com">jainkirti21403@gmail.com</a></div>
+              </li>
+            </ul>
+
+            <ul class="wrapper">
+
+              <li class="icon linkdin">
+                <span class="tooltip">Linkedin</span>
+                <a href="https://www.linkedin.com/in/badolakirti/" target="_blank">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </li>
+
+              <li class="icon instagram">
+                <span class="tooltip">Insagram</span>
+                <a href="https://www.instagram.com/badolakirti/" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+
+              <li class="icon dribbble">
+                <span class="tooltip">Dribbble</span>
+                <a href="https://dribbble.com/jainkirti" target="_blank">
+                  <i class="fa fa-dribbble" aria-hidden="true"></i></a>
+              </li>
+
+              <li class="icon github">
+                <span class="tooltip">GitHub</span>
+                <a href="https://github.com/kirti-badola" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i></a>
+              </li>
+
+            </ul>
+
+              <a href="https://wa.me/919636122350?text=Hi%20Kirti%2C%20I%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you%20to%20know%20more%20about%20how%20you%20can%20help%20with%20my%20business." class="btn">
+                Contact Me
+              </a>
+          </address>
+
+        </div>
+
+        <div class="faq-col">
+
+          <h3 class="subheading">Faq</h3>
+          <h2 class="common-heading">Frequently <span> Asked Question
+              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="16" viewBox="0 0 236 16" fill="none">
+                <path d="M3.44601 12.5566C3.44601 12.5566 113.601 -3.78341 232.618 6.95656" stroke="#FEB12F"
+                  stroke-width="5" stroke-linecap="round" />
+              </svg>
+            </span>
+          </h2>
+
+          <div class="box">
+            <h3 class="title">1. Why should you choose me for your project?</h3>
+            <p>I bring a perfect blend of creativity, technical expertise, and attention to detail to every project.
+              With a deep
+              understanding of UI/UX principles, frontend development, and modern web technologies, I ensure that your
+              website
+              is not just visually appealing but also highly functional, responsive, and user-friendly.
+            </p>
+          </div>
+
+          <div class="box">
+            <h3 class="title">2. Do you create responsive websites?</h3>
+            <p>Absolutely! I build fully responsive websites that adapt seamlessly to desktops, tablets, and mobile
+              devices.
+              Your website will look great and function flawlessly on any screen size, providing the best user
+              experience.</p>
+          </div>
+
+          <div class="box">
+            <h3 class="title">3. Can you design a custom website from scratch?</h3>
+            <p>Yes! I specialize in custom web design and development, ensuring your website is tailored to your brand
+              and
+              business needs. From wireframes to final deployment, I handle everything to create a unique and engaging
+              online
+              presence.</p>
+          </div>
+
+          <div class="box">
+            <h3 class="title">4. Do you offer support after the website is launched?</h3>
+            <p>Yes! I provide post-launch support, including minor updates, performance optimization, and assistance
+              with any technical issues. I ensure that your website remains smooth, secure, and up-to-date.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- contact and faq section end -->
+
+  <!-- footer start -->
+  <footer>
+    &copy; Copyright 2021 - <span id="Footer"></span> | All Rights Reserved
+  </footer>
+  <!-- footer end -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/slick.min.js"></script>
+
 </body>
+
 </html>
