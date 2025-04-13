@@ -38,7 +38,7 @@
 
 .about-section p { color: var(--paragraph-color); line-height: 24px; padding-top: 20px; text-align: justify; }
 
-.about-section ul li { color: var(--paragraph-color); line-height: 20px; padding-top: 20px; text-align: justify; margin-top: 15px;
+.about-section ul li { color: var(--paragraph-color); line-height: 20px; margin-top: 15px;
   display: flex; align-items: center; gap: 10px; background: #fff; padding:10px; border-left: 3px solid var(--primary-color);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
 }
@@ -404,7 +404,7 @@
 
 .faq-col .box { width: 100%; margin-top: 20px; background: var(--lightbg-color); border-radius: 5px; }
 .faq-col .title{ font-weight: 700; cursor: pointer;  position: relative; color: #323f7c;
-         padding: 20px 30px 20px 20px; border-radius: 5px; }
+         padding: 20px 60px 20px 20px; border-radius: 5px; }
 .faq-col p{ display: none; padding: 15px 20px; color:var(--paragraph-color);
   border-top:1px solid #E5E9EE; line-height: 24px; }
 
@@ -417,6 +417,7 @@
 @media only screen and (min-width: 767.98px) {
   .contact-col .contact-part .contact-details li { width: auto; }
   .contact-col .contact-part .contact-details li a { display: inline-block; }
+  .faq-col .title{ padding: 20px 30px 20px 20px; }
 }
 
 @media only screen and (min-width: 1199.98px) {
