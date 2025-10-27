@@ -40,24 +40,7 @@ $(document).ready(function () {
 
 
 // tab functionality
-$(function () {
-  $(".tabs-content .tab-inner").hide();
-
-  $(".tabs-nav li:first-child").addClass("active");
-  $(".tabs-content .tab-inner:first").show();
-
-  $(".tabs-nav a").click(function (e) {
-    e.preventDefault();
-
-    $(".tabs-nav li").removeClass("active");
-    $(this).parent().addClass("active");
-
-    let target = $(this).attr("href");
-
-    $(".tabs-content .tab-inner").hide();
-    $(target).show();
-  });
-});
+$(function () { $(".tabs-content .tab-inner").show(); $(".tabs-nav li:first-child").addClass("active"); $(".tabs-nav a").click(function () { $(".tabs-nav li").removeClass("active"); $(this).parent().addClass("active"); let target = $(this).attr("href"); if (target === "#all") { $(".tabs-content .tab-inner").show(); } else { $(".tabs-content .tab-inner").hide(); $(target).show(); } return false; }); });
 
 
 // faq
