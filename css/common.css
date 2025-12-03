@@ -1,63 +1,142 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-:root { 
-    --primary-color: #5D5CDC;
-    --secondary-color: #FEB12F;
-    --lightbg-color: #F5F5FA;
-    --headline-color: #23233D;
-    --paragraph-color: #474563;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body { font-family: "Inter", serif; font-size: 16px; }
-.container { max-width: 2000px !important; margin: 0 auto; }
-ul li { list-style-type: none; }
-a { text-decoration: none; }
-
-.common-heading { font-size: 22px; font-weight: 700; text-align: center; color: var(--headline-color); }
-
-.common-heading span { position: relative; z-index: 1; }
-.common-heading span svg { display: none; }
-
-.btn { color: var(--headline-color); border-radius: 5px; transition: 3s; font-weight: 600;
-    padding: 15px 30px; font-size: 20px; text-transform: capitalize; display: inline-block; margin-top: 30px;
-    box-shadow: rgba(35, 35, 61, 0.5) 0px 0px 20px 0px;
-    /* background: radial-gradient(circle, #5D5CDC, #8e8cfd); */
-    background: radial-gradient(circle, #f5a723, #fac56c);
+:root {
+  --primary-color: #5D5CDC;
+  --secondary-color: #FEB12F;
+  --lightbg-color: #F5F5FA;
+  --headline-color: #23233D;
+  --paragraph-color: #474563;
 }
 
-.btn:hover { border: 1px solid #fff; }
+body {
+  font-family: "Inter", serif;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.container {
+  max-width: 2000px !important;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.common-heading {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--headline-color);
+}
+
+.common-heading span {
+  position: relative;
+  z-index: 1;
+}
+
+.common-heading span svg {
+  display: none;
+}
+
+.btn {
+  color: var(--headline-color);
+  border-radius: 8px;
+  transition: 3s;
+  font-weight: 600;
+  padding: 15px 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: inline-block;
+  margin-top: 30px;
+  background: #fac56c;
+}
+
+.btn:hover {
+  border: 1px solid #fff;
+}
 
 
-.subheading { font-size: 20px; font-weight: 600; text-align: center; color: var(--primary-color); text-transform: uppercase; }
-.para { text-align: center; margin: 0 auto; color: var(--paragraph-color); line-height: 24px; padding-top: 10px; }
-.subheading.text-left, .common-heading.text-left { text-align: left; }
+.subheading {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.para {
+  text-align: center;
+  margin: 0 auto;
+  color: var(--paragraph-color);
+  line-height: 24px;
+  padding-top: 10px;
+}
+
+.subheading.text-left,
+.common-heading.text-left {
+  text-align: left;
+}
 
 /*Preloader*/
-#preloader{
-  background: url('images/other/preloader.gif') no-repeat center center; height: 100vh; width: 100%;
-  position: fixed; z-index: 100; }
+#preloader {
+  background: url('images/other/preloader.gif') no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
 
 
-  @media only screen and (min-width: 767.98px) {
-    .container { padding: 0 40px; }
+@media only screen and (min-width: 767.98px) {
+  .container {
+    padding: 0 40px;
   }
+}
 
 
 @media only screen and (min-width: 1199.98px) {
-  .container { padding: 0 70px; }
-    .para { width: 70%; }
-    .common-heading { font-size: 36px; }
-    .common-heading span svg { left: 50%; position: absolute; top: 100%; transform: translate(-50%, -50%);
-      z-index: -1; display: block; }
+  .container {
+    padding: 0 70px;
+  }
+
+  .para {
+    width: 60%;
+  }
+
+  .common-heading {
+    font-size: 36px;
+  }
+
+  .common-heading span svg {
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    display: block;
+  }
 }
 
 
 /***************************HEADER START***********************************/
-  
+
 .navbar {
   background-color: #fff;
 }
 
-.navbar .navbar-brand { font-size: 22px; font-weight: 700; text-transform: uppercase; 
+.navbar .navbar-brand {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
   background-image: linear-gradient(45deg, #5D5CDC, #FEB12F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -94,9 +173,17 @@ a { text-decoration: none; }
 
 /***************************SOCIAL MEDIA ICONS START***********************************/
 
-/* From Uiverse.io by david-mohseni */ 
-.wrapper { display: inline-flex; width: 100%; padding: 20px 0; }
-.wrapper .fa { color: var(--primary-color); font-size: 25px; }
+/* From Uiverse.io by david-mohseni */
+.wrapper {
+  display: inline-flex;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.wrapper .fa {
+  color: var(--primary-color);
+  font-size: 25px;
+}
 
 .wrapper .icon {
   position: relative;
@@ -110,7 +197,6 @@ a { text-decoration: none; }
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -122,8 +208,7 @@ a { text-decoration: none; }
   background: #fff;
   color: #fff;
   padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -148,23 +233,37 @@ a { text-decoration: none; }
   pointer-events: auto;
 }
 
-.wrapper .icon:hover i { color:#fff; }
+.wrapper .icon:hover i {
+  color: #fff;
+}
 
-.wrapper .linkdin:hover, .wrapper .linkdin:hover .tooltip,
+.wrapper .linkdin:hover,
+.wrapper .linkdin:hover .tooltip,
 .wrapper .linkdin:hover .tooltip::before {
-  background: #1877f2; color: #fff; }
+  background: #1877f2;
+  color: #fff;
+}
 
-.wrapper .instagram:hover, .wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-  background: #D92D75; color: #fff; }
+  background: #D92D75;
+  color: #fff;
+}
 
-.wrapper .dribbble:hover, .wrapper .dribbble:hover .tooltip,
+.wrapper .dribbble:hover,
+.wrapper .dribbble:hover .tooltip,
 .wrapper .dribbble:hover .tooltip::before {
-    background: #ec5e95; color: #fff; }
+  background: #ec5e95;
+  color: #fff;
+}
 
-.wrapper .github:hover, .wrapper .github:hover .tooltip,
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
-background: #252C34; color: #fff; }
+  background: #252C34;
+  color: #fff;
+}
 
 
 
@@ -174,13 +273,17 @@ background: #252C34; color: #fff; }
 
 /***************************FOOTER START***********************************/
 
-footer { background: var(--lightbg-color); padding: 20px; text-align: center; border-top: 1px solid #9c9ab6; font-size: 14px; }
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+}
 
 @media only screen and (min-width: 1199.98px) {
-    footer { font-size: 16px; }
+  footer {
+    font-size: 16px;
+  }
 }
 
 /***************************FOOTER END***********************************/
-
-
-
