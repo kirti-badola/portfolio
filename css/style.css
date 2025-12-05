@@ -116,9 +116,15 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  background: var(--lightbg-color);
-  padding: 10px;
-  border-left: 3px solid var(--primary-color);
+  /* background: var(--lightbg-color); */
+  padding: 10px 10px 15px;
+  /* border-left: 3px solid var(--primary-color);
+  border-radius: 2px; */
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.about-section ul li:last-child {
+  border-bottom: none;
 }
 
 .mykills {
@@ -731,120 +737,29 @@
 
 
 
-/***************************CONTACT START***********************************/
+/***************************FAQ START***********************************/
 
-.contact-section {
-  padding: 20px 0 40px;
-  position: relative;
-  overflow: hidden;
-  background: var(--primary-color);
-}
-
-/* contact part */
-.contact-col .subheading,
-.contact-col .common-heading {
-  text-align: left;
-}
-
-.contact-col .subheading {
-  color: #fdc364;
-}
-
-.contact-col .common-heading {
-  color: #fff;
-}
-
-
-.contact-col .contact-part {
-  margin-top: 20px;
-  font-style: normal;
-}
-
-.contact-col .contact-details {
-  margin-left: 10px;
-  padding-inline-start: 0;
-}
-
-.contact-col .contact-part .btn {
-  margin-left: 10px;
-}
-
-.contact-col .contact-part .contact-details li {
-  color: #f0f0f0;
-  font-size: 22px;
-  display: inline-flex;
-  gap: 10px;
-  align-items: center;
-  font-weight: 500;
-  padding: 20px 0;
-  width: 100%;
-}
-
-.contact-col .contact-part .contact-details li.call {
-  border-bottom: 1px solid #b3b3b3;
-}
-
-.contact-col .contact-part .contact-details li a {
-  color: #fff;
-  font-weight: 600;
-  display: block;
-}
-
-.contact-col .contact-part .contact-details li i {
-  color: var(--secondary-color);
-  font-size: 26px;
-}
-
-.contact-col .contact-part .elButton {
-  display: inline-block;
-  background: var(--secondary-color);
-  text-transform: capitalize;
-  color: #fff;
-  border-radius: 8px;
-  padding: 15px 30px;
-  margin-top: 30px;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-
-/* faq */
-.faq-col {
-  margin-top: 40px;
-}
-
-.faq-col .subheading,
-.faq-col .common-heading {
-  text-align: left;
-}
-
-.faq-col .common-heading {
-  margin-bottom: 30px;
-  color: #fff;
-}
-
-.faq-col .subheading {
-  color: var(--secondary-color);
-}
-
-.faq-col .box {
-  width: 100%;
-  margin-top: 20px;
+.faq-section {
   background: var(--lightbg-color);
+}
+
+.faq-section .box {
+  margin-top: 20px;
+  background: #fff;
   border-radius: 8px;
 }
 
-.faq-col .title {
-  font-weight: 700;
+.faq-section .title {
+  font-weight: 600;
   cursor: pointer;
   position: relative;
-  color: #323f7c;
+  color: var(--headline-color);
   padding: 20px 60px 20px 20px;
   border-radius: 8px;
   font-size: 1.2rem;
 }
 
-.faq-col p {
+.faq-section p {
   display: none;
   padding: 15px 20px;
   color: var(--paragraph-color);
@@ -852,13 +767,13 @@
   line-height: 24px;
 }
 
-.faq-col .title:after {
+.faq-section .title:after {
   content: '+';
   position: absolute;
   right: 20px;
   font-size: 20px;
   line-height: 28px;
-  background: #323F7C1A;
+  background: var(--lightbg-color);
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -866,68 +781,83 @@
   top: 16px;
 }
 
-.faq-col .title.active:after {
+.faq-section .title.active:after {
   content: '-';
 }
 
 
+/***************************FAQ END***********************************/
+
+
+
+/***************************CONTACT START***********************************/
+
+.contact-section .contact-part {
+  padding: 80px 40px;
+  background: url(../images/other/contact-banner.jpg) no-repeat;
+  background-position: center center;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  background-attachment: fixed;
+  border-radius: 16px;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.contact-section .contact-details {
+  flex-direction: column;
+}
+
+.contact-section .contact-details li {
+  color: #fff;
+  font-size: 22px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.contact-section .contact-details li a {
+  color: var(--lightbg-color);
+  font-weight: 500;
+}
+
+.contact-section .contact-details li i {
+  color: var(--secondary-color);
+  font-size: 26px;
+}
+
 @media only screen and (min-width: 767.98px) {
-  .contact-col .contact-part .contact-details li {
-    width: auto;
+
+  .contact-section .contact-details {
+    gap: 20px;
+    flex-direction: row;
   }
 
-  .contact-col .contact-part .contact-details li a {
-    display: inline-block;
-  }
-
-  .faq-col .title {
-    padding: 20px 30px 20px 20px;
-    font-size: 1.4rem;
-  }
 }
 
 @media only screen and (min-width: 1199.98px) {
-  .contact-section {
-    background: transparent
+  .contact-section .row {
+    align-items: center;
+    justify-content: center;
   }
 
-  .contact-section .contact-section {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+  .contact-section address {
+    width: 50rem;
   }
 
-  .contact-section .hex {
-    position: absolute;
-    width: 50%;
-    height: 38em;
-    background: url('../images/other/contact-bg.png') no-repeat;
-    background-size: cover;
-    top: 0;
-    left: -46px;
+  .contact-section h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
   }
 
-  .faq-col,
-  .contact-col {
-    width: 50%;
-  }
 
-  .faq-col {
-    margin-top: 0;
-  }
-
-  .faq-col .common-heading {
-    color: var(--headline-color);
-  }
-
-  .faq-col .subheading {
-    color: var(--primary-color);
-  }
-
-  .contact-col .common-heading {
-    font-size: 30px;
-  }
 }
-
 
 /***************************CONTACT END***********************************/
